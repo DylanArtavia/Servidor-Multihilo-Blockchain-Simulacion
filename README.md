@@ -1,12 +1,15 @@
 # Simulador de Blockchain en Java
 
 ## Descripción
-Simulación del proceso de minado de bloques utilizando múltiples hilos.
+Este proyecto simula el proceso de minería de bloques utilizando múltiples hilos en Java.
 
 ## Características
-- Uso de concurrencia
+- Uso de concurrencia (Threads)
 - Generación de bloques
-- Simulación de minería
+- Simulación de Proof of Work (simplificado)
+
+## Cómo funciona
+Cada hilo intenta encontrar un valor válido (nonce) que cumpla una condición específica.
 
 ## Cómo ejecutar
-Abrir el proyecto en NetBeans y ejecutar la clase principal.
+1. Ejecutar la clase principal
